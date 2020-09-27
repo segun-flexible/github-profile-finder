@@ -1,5 +1,7 @@
 <h1>Github Profile Finder</h1>
 
+<p>Demo: https://github-profile-finder-react.netlify.app/</[p]>
+
 ## Folder Structure
 
 After creation, your project should look like this:

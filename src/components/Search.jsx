@@ -10,7 +10,7 @@ const SearchBox = ({ handleSearch }) => {
   return (
     <div className="search">
       <form onSubmit={handleSubmit}>
-        <input ref={inputRef} type="search" name="" id="" />
+        <input ref={inputRef} type="search" placeholder="github username" />
         <button type="submit">Search Profile</button>
       </form>
     </div>
