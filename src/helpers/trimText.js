@@ -1,7 +1,7 @@
 const trimText = (str) => {
   const text = str.split(" ").join("-");
-alert(text.slice(0,-1)) 
-  return text;
+
+  return text.slice(-1) === '-'? text.slice(0,-1) :text;
 };
 
 export default trimText;
