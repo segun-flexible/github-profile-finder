@@ -10,11 +10,12 @@ const SearchBox = ({ handleSearch }) => {
   return (
     <div className="search">
       <form onSubmit={handleSubmit}>
-        <input ref={inputRef} type="search" placeholder="github username" />
+        <input ref={inputRef} type="search" placeholder="Github Username" />
         <button type="submit">Search Profile</button>
       </form>
     </div>
   );
 };
+
 
 export default SearchBox;
