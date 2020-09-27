@@ -1,5 +1,5 @@
 const trimText = (str) => {
-  const text = str.split(" ").join("-");
+  const text = str.split(" ").join(" - ");
   return text;
 };
 
